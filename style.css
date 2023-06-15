@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+li {
+  list-style: none;
+}
+
+#supMenu {
+  color: aliceblue;
+  background-image: url(./imagens/fundoMenu-sup.svg);
+}
+
+#logo {
+  margin: 50px 0px 0px 50px;
+}
+
+#title-menu {
+  margin: 50px 0px 0px 150px;
+}
+
+#text-menu {
+  padding-bottom: 150px;
+  margin: 35px 0px 0px 150px;
+}
+
+#informationMenu {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  align-items: center;
+  width: 1440px;
+  height: 170px;
+  background: #eaece5;
+}
+
+.icons {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.informativeText {
+  display: flex;
+  align-items: center;
+}
+
+#sectionVideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#title-video {
+  width: 496px;
+  height: 96px;
+  margin-top: 50px;
+  color: #247ba0;
+}
+
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+  width: 1440px;
+  height: 350px;
+  padding: 50px;
+  background: #247ba0;
+}
+
+#title-carrossel {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+#cards {
+  display: grid;
+  grid-auto-flow: column;
+  margin: 25px;
+}
+
+.card {
+  margin-left: 50px;
+}
+
+#arrow-left {
+  display: none;
+}
+
+#Bruna {
+  display: none;
+}
+
+.arrow {
+  margin-top: 120%;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  transform: translateY(-7px);
+  transition: 1s;
+}
+
+#form {
+  text-align: center;
+}
+
+#title-form {
+  font-size: 25px;
+  margin: 25px;
+  color: #383838;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin: 15px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #eaece5;
+}
+
+button {
+  height: 40px;
+  width: 250px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #247ba0;
+  color: #eaece5;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #318fb8;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #051030b1;
+  transition: 0.5s;
+}
